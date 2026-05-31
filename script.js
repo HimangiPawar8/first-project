@@ -32,7 +32,7 @@ function addTask() {
     /* delete button */
     
     let deleteBtn = document.createElement("span");
-    deleteBtn.innerText = "x";
+    deleteBtn.innerText = "";
     deleteBtn.className = "deleteTsk";
 
     /* add elements inside li */
